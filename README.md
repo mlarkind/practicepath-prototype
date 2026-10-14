@@ -1,34 +1,30 @@
 Matthew Larkin
 ESTM 60244, Current State and Future of Generative AI
-Project First Working Slice
+Project Prototype First Working Slice
 October 13, 2026
-
-Note. Tests appear in the section titled Three test results. Known limitations appear in the section titled Known limitations.
 
 PracticePath Prototype
 
 PracticePath is a pipeline map that helps a physician or owner of an independent medical practice name one restorative reproductive medicine (RRM) seat and see a short list of sample residents or fellows who might fit.
 
 What the first working slice allows a user to do
-Enter one open doctor seat (specialty, methods, start window, and whether a funded training year is offered).
-Click Show who might fit to see a short list of sample residents or fellows with a fit label and short rationale.
-Accept or reject each suggestion.
-Accepting places a visible hold on that person until the stated start window. Rejecting does nothing further.
+- Enter one open doctor seat (specialty, methods, start window, and whether a funded training year is offered).
+- Click Show who might fit to see a short list of sample residents or fellows with a fit label and short rationale.
+- Accept or reject each suggestion.
+- Accepting places a visible hold on that person until the stated start window. Rejecting does nothing further.
 
-Link to open the prototype
-Open the prototype here https://lovable.dev/preview/yR619TRe8jP1bYPlAdgHA4mZY4PcY58H
+Prototype Link
+https://lovable.dev/preview/yR619TRe8jP1bYPlAdgHA4mZY4PcY58H
 
-On the page fill in the seat form and click Show who might fit to run the flow. Built in Lovable. No Replit was used.
+On the prototype site, you can fill in the seat form and click show who might fit to run the flow. I used Grok and Lovable (no Replit).
 
 Public GitHub repository
 https://github.com/mlarkind/practicepath-prototype
 
-AI role and transparency
-
 What the future AI system is intended to do
-The future AI system is intended to find residents and fellows who want to practice restorative reproductive medicine, place them on the practice pipeline map by stage and method, and produce a short list with a fit label and editable rationale. The practice keeps full control. The AI does not message anyone or create a hold.
+The future AI system is intended to find medical residents and fellows who want to practice restorative reproductive medicine, place them on the practice pipeline map according to stage and method, and produce a short list with a fit label and rationale that can be edited. The medical practice keeps full control. The AI does not message anyone or create a hold.
 
-Which behavior currently works
+What currently works
 The user can enter one seat, receive a short list of sample profiles with fit labels and short rationales, and accept or reject each suggestion. Accepting places a visible hold. The flow is complete and understandable.
 
 Which behavior is simulated or completed manually
@@ -43,6 +39,6 @@ Three test results
 | Invalid or empty case | Methods left unchecked. Note left empty. Defaults kept (OB/GYN, July 2027, Funded Yes). Clicked Show who might fit. | Still showed results. Dr. Maria Alvarez labeled Strong fit but rationale said no shared methods. Other profiles also noted no shared methods. No clear error or empty state message. | Partial |
 
 Known limitations
-Medical residents and fellows shown are example profiles only. Matching and rationales are simulated with sample data.
-No data is saved. Refreshing the page clears the seat and any holds.
-A way to show actual med residents instead of example profiles was intentionally left outside this first slice.
+- Medical residents and fellows shown are example profiles only. Matching and rationales are simulated with sample data.
+- No data is saved. Refreshing the page clears the seat and any holds.
+- A way to show actual med residents instead of example profiles was intentionally left outside this first slice.
