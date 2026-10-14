@@ -23,8 +23,16 @@ On the page fill in the seat form and click Show who might fit to run the flow. 
 Public GitHub repository
 https://github.com/mlarkind/practicepath-prototype
 
-Whether the product AI behavior is working or simulated
-The product AI behavior is simulated. Matching and rationales use prewritten sample data to demonstrate the intended experience. No live AI model is connected. This is a recommendation only. The practice decides.
+AI role and transparency
+
+What the future AI system is intended to do
+The future AI system is intended to find residents and fellows who want to practice restorative reproductive medicine, place them on the practice pipeline map by stage and method, and produce a short list with a fit label and editable rationale. The practice keeps full control. The AI does not message anyone or create a hold.
+
+Which behavior currently works
+The user can enter one seat, receive a short list of sample profiles with fit labels and short rationales, and accept or reject each suggestion. Accepting places a visible hold. The flow is complete and understandable.
+
+Which behavior is simulated or completed manually
+Matching and rationales are fully simulated with prewritten sample data. No live AI model is connected. The results are recommendations only. The practice decides what to accept.
 
 Three test results
 
